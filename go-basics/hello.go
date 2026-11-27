@@ -6,11 +6,13 @@ func main() {
 	fmt.Printf("Hello. %s!\n", "world")
 	fmt.Println("Greetings and \n Salutations")
 
+	var isNew bool = false
+
 	var test = "sash"
 	test = "new"
 	fmt.Println(test)
 
-	// rune used when referring to a characte ( alias for int32 type)
+	// rune used when referring to a character ( alias for int32 type)
 	// var myFirstInitial rune = 'S'
 	// var myLastInitial rune = 'H'
 
